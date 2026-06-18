@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Страница очень доступного сайта">
+        <meta property="og:title" content="Новый продукт!">
+        <meta property="og:type" content="article">
+        <meta property="og:image" content="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:description" content="Страница очень доступного сайта">
+        <title>Third task</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Перейти к содержимому</a>
+        <header>
+            <h1>Наш новый продукт</h1>
+            <nav aria-label="Основная навигация">
+                <ul>
+                    <li><a href="#product" aria-current="page">Продукт</a></li>
+                    <li><a href="#tarifs">Тарифы</a></li>
+                    <li><a href="#apply">Заявка на покупку</a></li>
+                    <li><a href="#partners">Наши партнёры</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <article>
+                <section aria-labelledby="product">
+                    <h2 id="product">О продукте</h2>
+                    <figure class="grafic">
+                        <figcaption>Продукт крутой, смотрите, как с ним растёт ваша прибыль:</figcaption>
+                        <img src="data:image/jpeg;base64,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" alt="График, демонстрирующий стремительный рост прибыли">
+                    </figure>
+                </section>
+                <section aria-labelledby="tarifs">
+                    <h2 id="tarifs">Тарифы</h2>
+                    <p>У нас всего один тариф - 100р/м</p>
+                    <h3>Скидки</h3>
+                    <p>Скидок нет</p>
+                </section>
+                <section aria-labelledby="apply">
+                    <h2 id="apply">Хотите купить наш продукт? Заполните форму ниже!</h2>
+                    <form action="https://httpbin.org/get">
+                        <fieldset class="contacts">
+                            <legend>Ваши контактные данные</legend>
+
+                            <label for="name">Имя</label>
+                            <input 
+                                type="text"
+                                id="name"
+                                name="name"
+                                pattern="[A-Za-z]{2,20}"
+                                autocomplete="name"
+                                required
+                                aria-describedby="name-help"
+                            />
+                            <small id="name-help">Разрешены только латинские буквы без пробелов, длина от 2 до 20 символов</small>
+                            <p aria-live="polite" id="name-error"></p>
+        
+                            <label for="email">Электронная почта</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                title="Например, name@example.com"
+                                autocomplete="email"
+                                required
+                                aria-describedby="email-help"
+                            />
+                            <small id="email-help">Например, name@example.com</small>
+                            <p aria-live="polite" id="email-error"></p>
+        
+                            <label for="phone">Телефон</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                pattern="\+?7\d{10}"
+                                placeholder="+79213335577"
+                                autocomplete="tel"
+                                required
+                                aria-describedby="tel-help"
+                            />
+                            <small id="tel-help">Введите номер телефона в формате +7 123 456 78 90 или 7 123 456 78 90</small>
+                            <p aria-live="polite" id="tel-error"></p>
+
+                        </fieldset>
+
+                        <fieldset class="additional">
+                            <legend>Дополнительная информация</legend>
+
+                            <label for="usecase">Зачем вам наш продукт?</label>
+                            <textarea id="usecase" name="usecase" rows="4" cols="50" aria-describedby="textarea-help"></textarea>
+                            <small id="textarea-help">Напишите пару слов о планируемом применении нашего продукта</small>
+
+                            <label for="country">Откуда вы?</label>
+                            <input list="countries" id="country" name="country" placeholder="Выберите страну">
+                            <datalist id="countries">
+                                <option value="Россия">
+                                <option value="Германия">
+                                <option value="Италия">
+                            </datalist>
+
+                        </fieldset>
+
+                        <button type="submit">Отправить</button>
+                        <button type="reset">Сбросить</button>
+                    </form>
+                </section>
+            </article>
+            <aside aria-labelledby="partners">
+                <h2 id="partners">Наши партнёры:</h2>
+                <ul>
+                    <li>Сбер</li>
+                    <li>Тбанк</li>
+                    <li>Ещё кто-то</li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <figure class="logo">
+                <img src="https://static.independent.co.uk/2021/12/10/13/newFile.jpg?width=1200&height=630&fit=crop" alt="Логотип, изображающий Crazy Frog">
+                <figcaption>Такое вот лого</figcaption>
+            </figure>
+            <time datetime="2026">2026 год</time>
+        </footer>
+    </body>
+</html>
