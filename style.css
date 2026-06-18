@@ -14,8 +14,8 @@
 * { box-sizing: border-box }
 
 body {
-    background-color: var(--bg);
-    color: var(--ft);
+    background-color: var(--bg, white);
+    color: var(--ft, black);
     font-family: Georgia, serif;
 }
 
